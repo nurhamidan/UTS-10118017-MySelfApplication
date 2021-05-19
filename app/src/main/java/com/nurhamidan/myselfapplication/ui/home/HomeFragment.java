@@ -28,6 +28,11 @@ public class HomeFragment extends Fragment {
             R.drawable.interest
 
     };
+    private int[] tabTexts = {
+            R.string.profile_title,
+            R.string.interest_title
+
+    };
 
     private HomeViewModel homeViewModel;
 
@@ -54,7 +59,9 @@ public class HomeFragment extends Fragment {
     }
     private void setupTabIcons() {
         tabLayout.getTabAt(0).setIcon(tabIcons[0]);
+        tabLayout.getTabAt(0).setText(tabTexts[0]);
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
+        tabLayout.getTabAt(1).setText(tabTexts[1]);
     }
 
     public void addTabs(ViewPager viewPager) {
