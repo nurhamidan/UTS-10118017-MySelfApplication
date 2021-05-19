@@ -39,4 +39,6 @@
     <string name="film_favorit">Film Favorit</string>
     <string name="film_favorit_value">Violet Evergarden</string>
     <string name="interest_title">Interest</string>
+    <string name="cita_cita">Cita-cita</string>
+    <string name="cita_cita_value">Programmer</string>
 </resources>
