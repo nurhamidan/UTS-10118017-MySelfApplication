@@ -17,6 +17,13 @@ import androidx.viewpager.widget.ViewPager;
 
 import java.util.ArrayList;
 
+/*
+    Tanggal Pengerjaan: 19 Mei 2021
+    Nim: 10118017
+    Nama: Agung Nurhamidan
+    Kelas: IF-1
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
+                R.id.navigation_home, R.id.navigation_daily_activity)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);

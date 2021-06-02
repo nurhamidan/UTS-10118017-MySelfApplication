@@ -14,6 +14,12 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.nurhamidan.myselfapplication.R;
 
+/*
+    Tanggal Pengerjaan: 19 Mei 2021
+    Nim: 10118017
+    Nama: Agung Nurhamidan
+    Kelas: IF-1
+ */
 public class DashboardFragment extends Fragment {
 
     private DashboardViewModel dashboardViewModel;

@@ -7,6 +7,12 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
+/*
+    Tanggal Pengerjaan: 19 Mei 2021
+    Nim: 10118017
+    Nama: Agung Nurhamidan
+    Kelas: IF-1
+ */
 public class ViewPagerAdapter extends FragmentPagerAdapter {
     private final ArrayList<Fragment> mFragmentList = new ArrayList();
     private final ArrayList<String> mFragmentTitleList = new ArrayList();

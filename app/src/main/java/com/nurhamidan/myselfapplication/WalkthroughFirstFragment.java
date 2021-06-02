@@ -7,6 +7,12 @@ import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
 
+/*
+    Tanggal Pengerjaan: 19 Mei 2021
+    Nim: 10118017
+    Nama: Agung Nurhamidan
+    Kelas: IF-1
+ */
 public class WalkthroughFirstFragment extends Fragment {
 
     @Override

@@ -19,6 +19,12 @@ import com.nurhamidan.myselfapplication.ProfileFragment;
 import com.nurhamidan.myselfapplication.R;
 import com.nurhamidan.myselfapplication.ViewPagerAdapter;
 
+/*
+    Tanggal Pengerjaan: 19 Mei 2021
+    Nim: 10118017
+    Nama: Agung Nurhamidan
+    Kelas: IF-1
+ */
 public class HomeFragment extends Fragment {
 
     private TabLayout tabLayout;
